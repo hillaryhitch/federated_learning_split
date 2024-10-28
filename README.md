@@ -1,7 +1,11 @@
 conda activate forecasting
+
 python central_server.py
+
 python client_server.py 3 client3_train.csv client3_pred.csv
+
 python client_server.py 2 client2_train.csv client2_pred.csv
+
 python client_server.py 1 client1_train.csv client1_pred.csv
 
 
